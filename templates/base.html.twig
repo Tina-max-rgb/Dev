@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+           <title>{% block title %}Orange Bleu!{% endblock %}</title>
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+              
+            
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    
+    <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-5">
+        <div class="container">
+          <a class="navbar-brand" href="{{ path('app_login') }}">Orange Blue</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          {{ include('admin/menu_left.html.twig') }}
+          <div class="my-2 my-lg-0">
+            <ul class="nav justify-content-end">
+            {% if is_granted('ROLE_USER') %}
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{ path('app_logout') }}">Déconnecter</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{ path('app_login') }}">Se connecter</a>
+              </li>
+            {% endif %}
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+        {% block body %}{% endblock %}
+        <!-- Modal -->
+        <div class="modal fade" id="confirmation-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Êtes vous sûr de valider cette action?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <a href="" class="btn btn-primary confirm-action">Valider</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

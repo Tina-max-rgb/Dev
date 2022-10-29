@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Orange Blue - Partenaire{% endblock %}
+{% block body %}
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-10">
+      <h2>Mes informations</h2>
+      <div class="table-responsive">
+        <table class="table align-middle mb-0 bg-white">
+          <thead class="bg-light">
+            <tr>
+              <th>Nom</th>
+              <th>Email</th>
+              <th>Adresse</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">              
+                    <div class="ms-3">
+                      <p class="fw-bold mb-1">{{structure.user.nom}}</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p class="text-muted mb-0">{{structure.user.email}}</p>
+                </td>
+                <td>
+                  <p class="text-muted mb-0">{{structure.user.adresse}}</p>
+                </td>
+              </tr>
+        </tbody>
+      </table>
+      <h2 class="mt-5">Mes permissions</h2>
+      <table class="table align-middle mb-0 bg-white">
+          <thead class="bg-light">
+            <tr>
+              <th>Titre</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% if structure.permission is not empty %}
+            {% for permission in structure.permission %}
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">              
+                    <div class="ms-3">
+                      <p class="fw-bold mb-1">{{permission.nom}}</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+              {% else %}
+              <tr>
+                <td colspan="4"><p class="text-center">Pas de liste des permissions</td>
+              </tr>
+              {% endif %}
+        </tbody>
+      </table>
+    </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
