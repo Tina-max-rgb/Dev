@@ -12,6 +12,9 @@ Pou naviguer sur l'application, aprés la connection on clique sur les différen
 Pour modifier ce qu'on veut on clique sur le bouton "Edit".
 Pour ajouter une structure on clique sur le bouton "ajout structure", et on tape le nom de la structure, l'email et le mot de passe et l'adresse de la structure et enfin il y'a une barre de section "partner" pour choisir parmi les partenaires qui existent et on clique sur mettre à jour.
 Pour utiliser la recherche dynamique on tape dans la berre de recherche"recherche par nom" les trois premiéres lettres, et on peut filtrer notre recherche selon le status:activer ou désactiver.
+Pour tester la partie sécurité de l'application, c'est à dire les notifications par email de changement envoyés à la structure et le partenaire d'ajout ou de désactivation de permissions, il faut créer l'adresse email et se connecter pour voir la notification.
+Il en est de méme lorsqu'un partenaire est crée, la notification de réception d'informations pour se connecter ainsi que la demande d'un nouveau mot de passe, les adresse email sont mentionnées dans la copie de correction et elles existent, il ne reste qu'à se connecter pour voir.
+Et enfin, il en est de méme lorsqu'une structure est crée, le gérant reçoit les informations pour se connecter et le partenaire reçoit un email pour l'ajout d'une nouvelle structure.
 
 
 
