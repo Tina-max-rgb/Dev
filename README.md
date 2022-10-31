@@ -18,7 +18,7 @@ Pour tester la partie sécurité de l'application, c'est à dire les notificatio
 Il en est de méme lorsqu'un partenaire est crée, la notification de réception d'informations pour se connecter ainsi que la demande d'un nouveau mot de passe, les adresse email sont mentionnées dans la copie de correction et elles existent, il ne reste qu'à se connecter pour voir.
 Et enfin, il en est de méme lorsqu'une structure est crée, le gérant reçoit les informations pour se connecter et le partenaire reçoit un email pour l'ajout d'une nouvelle structure.
 
-L'ensemble des documents demandés pour cet ECF:diagrammes de cas d'utilisation et le diagramme de classe, et le diagramme de séquence, ainsi que les maquettes et wireframes, et le document du tableau de plannification, et le document de questions et réflexions se trouvent dans le dossier Livrables sur le dépot Git et sur cette repositorie.
+L'ensemble des documents demandés pour cet ECF:diagrammes de cas d'utilisation et le diagramme de classe, et le diagramme de séquence, ainsi que les maquettes et wireframes, et le document du tableau de plannification, et le document de questions et réflexions se trouvent dans le dossier Livrables sur ce dépot Git et sur cette repositorie.
 
 
 
