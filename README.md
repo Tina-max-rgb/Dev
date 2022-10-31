@@ -7,7 +7,8 @@ Un compte administrateur est crée, je metterais l'email et le mot de passe pour
 Manuel d'utilisation:
 Pour se connecter sur l'application, il faut se rendre sur le lien:https://travel-to-travel.online/.
 les informations de connection pour l'administrateur sont données dans la copie de correction, dans la rubrique: Informations complémentaires:
-Pour pouvoir utiliser l'application comme administrateur, il faut soit méme modifier le code du projet et mettre son adresse email.
+Pour pouvoir utiliser l'application comme administrateur, il faut soit méme modifier l'adresse email dans le code du projet en local.
+Et pour se connecter en ligne, veuillez utiliser l'adresse email+le mot de passe qui sont donnés dans la copie de correction.
 Pou naviguer sur l'application, aprés la connection on clique sur les différents boutons, pour ajouter un partenaire, on clique sur le bouton ajouter, et on fait de méme pour les structures, pour gérer les permissions: on clique sur le bouton gérer , et un ensemble de permissions qui sont attribuées à chaque partenaire ou structure apparaissent et on clique sur le switch pour activer ou désactiver les permissions, et on clique sur mettre à jour et un message de confirmation apparait.
 Pour modifier ce qu'on veut on clique sur le bouton "Edit".
 Pour ajouter une structure on clique sur le bouton "ajout structure", et on tape le nom de la structure, l'email et le mot de passe et l'adresse de la structure et enfin il y'a une barre de section "partner" pour choisir parmi les partenaires qui existent et on clique sur mettre à jour.
