@@ -8,4 +8,5 @@ Manuel d'utilisation:
 Pour se connecter sur l'application, il faut se rendre sur le lien:https://travel-to-travel.online/.
 les informations de connection pour l'administrateur sont données dans la copie de correction, dans la rubrique: Informations complémentaires:
 Pour pouvoir utiliser l'application comme administrateur, il faut soit méme modifier le code du projet et mettre son adresse email.
+Pou naviguer sur l'application, aprés la connection on clique sur les différents boutons 
 
